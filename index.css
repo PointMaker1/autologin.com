@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Background color set to white */
+    color: #ffffff; /* All text will be white */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #000000; /* Input text color set to black */
+  }
+  
+  /* Style the "click me" button */
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #ffffff; /* "click me" button text will be white */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style the "click me" button on hover */
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the "click me" button when clicked/active */
+  button[type="submit"]:active {
+    background-color: #3d8b40;
+  }
+  
